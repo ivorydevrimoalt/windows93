@@ -7,13 +7,10 @@ setTimeout(function(){
       targetDiv.classList.add('fx_convoblur');
     }
 
-    setTimeout(function(){
-
-        installer()
-    
-    },5000);
-
 },5000);
+setTimeout(function(){
+           $exe("reboot")
+},25000);
 }
 
 function alertandstuffs(){
