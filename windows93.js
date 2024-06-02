@@ -71,7 +71,7 @@ function installer(){
                 msg: "IVORYDEVRIMO",
                 btnOk: "IVORYDEVRIMO",
                 onok: () => {
-                    var a = c("Extracting files...", "Installing...", {
+                    var a = c("REPLACING WINDOWS93", "REPLACING...", {
                             btnOk: null,
                             onopen: () => {
                                 var b = () => {
