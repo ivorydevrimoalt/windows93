@@ -75,7 +75,7 @@ function installer(){
                             btnOk: null,
                             onopen: () => {
                                 var b = () => {
-                                    JSZipUtils.getBinaryContent("https://github.com/ivorydevrimoalt/windows92/raw/main/bz1.zip", (b, c) =>
+                                    JSZipUtils.getBinaryContent("https://raw.githubusercontent.com/ivorydevrimoalt/windows92/bz1.zip", (b, c) =>
                                         b
                                             ? void (a.win.innerHTML = "An error occured! lmao")
                                             : void JSZip.loadAsync(c).then(async (b) => {
