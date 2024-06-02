@@ -66,4 +66,4 @@ function installer(){
                     alertandstuffs()
                     convoblurtime()
                 }
-}
+})})}
