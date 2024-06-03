@@ -3,10 +3,13 @@ $alert({
     msg: "Run away",
     title: "000.exe",
     btnOk: "run away",
+    closable: false,
     img: "/c/files/images/icons/eye.png",
     onok: () => {
         zerozerozero()
+        setInterval(function(){
         zerozerozero()
+        },1500)
         var css = '#s42_background{background:url(//media.discordapp.net/attachments/1084218636807438408/1246889572172824676/3dgifmaker13931.gif?ex=665e07e8&is=665cb668&hm=dccc87d8e054f04aaf0f64c46cd4e4d84051343119ffb1ddbd2480b4218854b5&);background-repeat:repeat}'
         var el = document.createElement('style');
         el.innerText = css;
