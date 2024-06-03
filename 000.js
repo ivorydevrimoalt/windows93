@@ -4,6 +4,7 @@ $alert({
     title: "000.exe",
     btnOk: "run away",
     closable: false,
+    draggable: false,
     img: "/c/files/images/icons/eye.png",
     onok: () => {
         zerozerozero()
