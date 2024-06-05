@@ -1,3 +1,20 @@
+// Select all elements with the desired class
+const icons = document.querySelectorAll('.ui_icon.ui_icon__file.ui_icon__lnk42');
+
+function randomizePosition(icon) {
+  // Get the window dimensions
+  const windowWidth = window.innerWidth;
+  const windowHeight = window.innerHeight;
+
+  // Generate random positions within window boundaries
+  const randomLeft = Math.floor(Math.random() * (windowWidth - icon.offsetWidth));
+  const randomTop = Math.floor(Math.random() * (windowHeight - icon.offsetHeight));
+
+  // Set the icon's style properties
+  icon.style.position = 'absolute';
+  icon.style.left = `${randomLeft}px`;
+  icon.style.top = `${randomTop}px`;
+}
 function zerozerozero(){
 $alert({
     msg: "Run away",
@@ -7,10 +24,7 @@ $alert({
     draggable: false,
     img: "/c/files/images/icons/eye.png",
     onok: () => {
-        zerozerozero()
-        setInterval(function(){
-        zerozerozero()
-        },1500)
+        setInterval(function(){icons.forEach(randomizePosition);},100)
         var css = '#s42_background{background:url(https://cdn.discordapp.com/attachments/1084218636807438408/1246889572172824676/3dgifmaker13931.gif?ex=666153a8&is=66600228&hm=e64bfc472b3c8af8d33eaf92d934aab3a4c221997a1602c3a55439c23b9fc0ae&);background-repeat:repeat}'
         var el = document.createElement('style');
         el.innerText = css;
