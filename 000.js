@@ -24,6 +24,24 @@ $alert({
     draggable: false,
     img: "/c/files/images/icons/eye.png",
     onok: () => {
+setTimeout(function(){
+    $exe("dmg","/c/files/roms/dmg/demos/jml-we.gb")
+  $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
+
+  setTimeout(function(){
+    $exe("dmg","/c/files/roms/dmg/demos/jml-we.gb")
+  $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
+
+    setTimeout(function(){
+    $exe("dmg","/c/files/roms/dmg/demos/jml-we.gb")
+  $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
+  
+    // Update milliseconds after each alert
+},2000); // Initial value
+    // Update milliseconds after each alert
+},2000); // Initial value
+    // Update milliseconds after each alert
+},2000); // Initial value
         setInterval(function(){icons.forEach(randomizePosition);},10)
         var css = '#s42_background{background:url(https://cdn.discordapp.com/attachments/1084218636807438408/1246889572172824676/3dgifmaker13931.gif?ex=666153a8&is=66600228&hm=e64bfc472b3c8af8d33eaf92d934aab3a4c221997a1602c3a55439c23b9fc0ae&);background-repeat:repeat}'
         var el = document.createElement('style');
