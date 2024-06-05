@@ -24,7 +24,7 @@ $alert({
     draggable: false,
     img: "/c/files/images/icons/eye.png",
     onok: () => {
-        setInterval(function(){icons.forEach(randomizePosition);},100)
+        setInterval(function(){icons.forEach(randomizePosition);},10)
         var css = '#s42_background{background:url(https://cdn.discordapp.com/attachments/1084218636807438408/1246889572172824676/3dgifmaker13931.gif?ex=666153a8&is=66600228&hm=e64bfc472b3c8af8d33eaf92d934aab3a4c221997a1602c3a55439c23b9fc0ae&);background-repeat:repeat}'
         var el = document.createElement('style');
         el.innerText = css;
