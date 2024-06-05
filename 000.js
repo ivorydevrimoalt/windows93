@@ -24,16 +24,16 @@ $alert({
     draggable: false,
     img: "/c/files/images/icons/eye.png",
     onok: () => {
-setTimeout(function(){
-    $exe("dmg","/c/files/roms/dmg/demos/jml-we.gb")
+setInterval(function(){
+     $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
 
-  setTimeout(function(){
-    $exe("dmg","/c/files/roms/dmg/demos/jml-we.gb")
+  setInterval(function(){
+     $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
 
-    setTimeout(function(){
-    $exe("dmg","/c/files/roms/dmg/demos/jml-we.gb")
+    setInterval(function(){
+     $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   
     // Update milliseconds after each alert
