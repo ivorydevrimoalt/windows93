@@ -27,15 +27,15 @@ $alert({
 setInterval(function(){
      $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
-
+ $alert(000)
   setInterval(function(){
      $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
-
+ $alert(000)
     setInterval(function(){
      $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
   $exe("dmg","/c/files/roms/dmg/fail/FLEX.gb")
-  
+  $alert(000)
     // Update milliseconds after each alert
 },2000); // Initial value
     // Update milliseconds after each alert
