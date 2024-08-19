@@ -1,5 +1,5 @@
 // Targeting elements
-const targetDiv = document.querySelector('div.pa0.relative.ui_icon.ui_icon__file.ui_icon__lnk42');
+const targetDiv = document.querySelector('div.pa0');
 const allImages = document.querySelectorAll('img');
 
 // Function to replace images and play sound (without autoplay or loop)
@@ -15,9 +15,6 @@ function modifyContent() {
   // Play sound (without autoplay or loop, user interaction required)
   const sound = new Audio();
   sound.src = 'scary.wav'; // Replace with your sound file path
-  sound.addEventListener('play', () => {
-    console.log('Sound played'); // Optional: Log sound playback
-  });
   sound.addEventListener('ended', () => {
       sound.play();
   });
