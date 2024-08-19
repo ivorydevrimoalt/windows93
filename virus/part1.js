@@ -31,6 +31,6 @@ function redirectWithAlert() {
 
 // Call the functions (modify content first, then handle alert and redirection)
 modifyContent();
-setTimeout(function({
+setTimeout(function(){
 redirectWithAlert();
 },60000)
