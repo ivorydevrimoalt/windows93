@@ -36,6 +36,18 @@ setInterval(function(){
     closable: false,
     draggable: false,
     img: "/c/files/images/icons/eye.png"
+    onok: () => {
+   setInterval(function(){
+$alert({
+    msg: "Run away",
+    title: "000.exe",
+    btnOk: "run away",
+    closable: false,
+    draggable: false,
+    img: "/c/files/images/icons/eye.png"
+ })
+    },500);
+ }
  })
     },500);
         setInterval(function(){icons.forEach(randomizePosition);},10)
