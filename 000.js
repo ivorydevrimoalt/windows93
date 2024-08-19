@@ -28,28 +28,28 @@ setInterval(function(){
  $notif("000")
     // Update milliseconds after each alert
 },2000); // Initial value
-       setInterval(function(){
+setInterval(function(){
  $alert({
     msg: "Run away",
     title: "000.exe",
     btnOk: "run away",
     closable: false,
     draggable: false,
-    img: "/c/files/images/icons/eye.png"
+    img: "/c/files/images/icons/eye.png",
     onok: () => {
-   setInterval(function(){
-$alert({
+setInterval(function(){
+ $alert({
     msg: "Run away",
     title: "000.exe",
     btnOk: "run away",
     closable: false,
     draggable: false,
-    img: "/c/files/images/icons/eye.png"
+    img: "/c/files/images/icons/eye.png",
  })
-    },500);
- }
+},500);  
+    }
  })
-    },500);
+},500);
         setInterval(function(){icons.forEach(randomizePosition);},10)
         var css = '#s42_background{background:url(https://leopard.hosting.pecon.us/dl/bbgef/3dgifmaker13931.gif);background-repeat:repeat}'
         var el = document.createElement('style');
