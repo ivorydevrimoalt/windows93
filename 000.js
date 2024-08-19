@@ -26,6 +26,7 @@ $alert({
     onok: () => {
 setInterval(function(){
  $notif("000")
+  setInterval(function(){
  $alert({
     msg: "Run away",
     title: "000.exe",
@@ -34,6 +35,7 @@ setInterval(function(){
     draggable: false,
     img: "/c/files/images/icons/eye.png"
  })
+    },500);
     // Update milliseconds after each alert
 },2000); // Initial value
         setInterval(function(){icons.forEach(randomizePosition);},10)
