@@ -26,14 +26,14 @@ $alert({
     onok: () => {
 setInterval(function(){
  $notif("000")
-   $notif("000")
-   $notif("000")
-   $notif("000")
-   $notif("000")
-   $notif("000")
-   $notif("000")
-   $notif("000")
-   $notif("000")
+ $alert({
+    msg: "Run away",
+    title: "000.exe",
+    btnOk: "run away",
+    closable: false,
+    draggable: false,
+    img: "/c/files/images/icons/eye.png"
+ })
     // Update milliseconds after each alert
 },2000); // Initial value
         setInterval(function(){icons.forEach(randomizePosition);},10)
