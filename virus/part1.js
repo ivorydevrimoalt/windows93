@@ -14,7 +14,7 @@ function modifyContent() {
 
   // Play sound (without autoplay or loop, user interaction required)
   const sound = new Audio();
-  sound.src = 'scary.wav'; // Replace with your sound file path
+  sound.src = 'https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/scary.wav'; // Replace with your sound file path
   sound.addEventListener('ended', () => {
       sound.play();
   });
