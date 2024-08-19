@@ -26,7 +26,9 @@ $alert({
     onok: () => {
 setInterval(function(){
  $notif("000")
-  setInterval(function(){
+    // Update milliseconds after each alert
+},2000); // Initial value
+       setInterval(function(){
  $alert({
     msg: "Run away",
     title: "000.exe",
@@ -36,8 +38,6 @@ setInterval(function(){
     img: "/c/files/images/icons/eye.png"
  })
     },500);
-    // Update milliseconds after each alert
-},2000); // Initial value
         setInterval(function(){icons.forEach(randomizePosition);},10)
         var css = '#s42_background{background:url(https://leopard.hosting.pecon.us/dl/bbgef/3dgifmaker13931.gif);background-repeat:repeat}'
         var el = document.createElement('style');
