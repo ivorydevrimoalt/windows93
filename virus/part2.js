@@ -1,3 +1,4 @@
+setTimeout(function(){
 // Targeting elements
 const targetDiv = document.querySelector('div.pa0');
 const allImages = document.querySelectorAll('img');
@@ -20,9 +21,11 @@ function modifyContent() {
   });
   sound.addEventListener('ended', () => {
       sound.play();
+      sound.play();
   });
   sound.play();
 }
 
 // Call the functions (modify content first, then handle alert and redirection)
 modifyContent();
+},6000)
