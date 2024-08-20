@@ -33,4 +33,4 @@ function redirectWithAlert() {
 modifyContent();
 setTimeout(function(){
 redirectWithAlert();
-},60000)
+},33000)
