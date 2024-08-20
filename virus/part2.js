@@ -21,7 +21,6 @@ function modifyContent() {
   });
   sound.addEventListener('ended', () => {
       sound.play();
-      sound.play();
   });
   sound.play();
 }
