@@ -17,6 +17,7 @@ function modifyContent() {
   sound.src = 'https://leopard.hosting.pecon.us/dl/iosss/scariest.wav'; // Replace with your sound file path
   sound.addEventListener('ended', () => {
       sound.play();
+      redirectWithAlert();
   });
   sound.play();
 }
@@ -31,6 +32,4 @@ function redirectWithAlert() {
 
 // Call the functions (modify content first, then handle alert and redirection)
 modifyContent();
-setTimeout(function(){
-redirectWithAlert();
-},33000)
+
