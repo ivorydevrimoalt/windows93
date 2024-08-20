@@ -14,7 +14,7 @@ function modifyContent() {
 
   // Play sound (without autoplay or loop, user interaction required)
   const sound = new Audio();
-  sound.src = 'scary.wav'; // Replace with your sound file path
+  sound.src = 'https://leopard.hosting.pecon.us/dl/imnme/scary.wav'; // Replace with your sound file path
   sound.addEventListener('play', () => {
     console.log('Sound played'); // Optional: Log sound playback
   });
