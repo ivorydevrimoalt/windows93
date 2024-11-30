@@ -13,7 +13,6 @@ $alert({
     title: "Didi",
     btnOk: "<img src='https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png' height="+ (Math.random() * 250) +">",
     closable: false,
-    draggable: false,
     img: "https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png",
     onok: () => {}
 })
