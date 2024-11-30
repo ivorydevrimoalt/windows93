@@ -1,20 +1,20 @@
 $alert({
-    msg: "<img src='diditron.png' height=250>",
+    msg: "<img src='https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png' height=150>",
     title: "Didi",
-    btnOk: "<img src='diditron.png' height=50>",
+    btnOk: "<img src='https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png' height=50>",
     closable: false,
     draggable: false,
-    img: "diditron.png",
+    img: "https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png",
     onok: () => {
 setInterval(function(){
 $notif("Didi")
 $alert({
-    msg: "<img src='diditron.png' height=250>",
+    msg: "<img src='https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png' height=250>",
     title: "Didi",
-    btnOk: "<img src='diditron.png' height=50>",
+    btnOk: "<img src='https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png' height=50>",
     closable: false,
     draggable: false,
-    img: "diditron.png",
+    img: "https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png",
     onok: () => {}
 })
 },1); // Initial value
