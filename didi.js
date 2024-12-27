@@ -1,4 +1,3 @@
-window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/didi.js').then(response => response.text()).then(script => eval(script));"
 $alert({
     msg: "<img src='https://raw.githubusercontent.com/ivorydevrimoalt/windows93/refs/heads/main/diditron.png' height=150>",
     title: "Didi",
