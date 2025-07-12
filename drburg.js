@@ -1,8 +1,8 @@
 // Generate a random number (0 or 1)
 var fakemarg = Math.floor(Math.random() * 2);
 
-const btoab='aHR0cHM6Ly93aW1nLnJ1bGUzNC54eHgvL2ltYWdlcy8xMjU3L2Y1YjBiNGVkMDIyMmQ5MDBjZjMxYzFlNjBlMmI1NmJlLnBuZz8xMzQ1NzQ4NA==',
-const atoba=atob(btoab)
+const btoab = 'aHR0cHM6Ly93aW1nLnJ1bGUzNC54eHgvL2ltYWdlcy8xMjU3L2Y1YjBiNGVkMDIyMmQ5MDBjZjMxYzFlNjBlMmI1NmJlLnBuZz8xMzQ1NzQ4NA==',
+      atoba = atob(btoab);
 
 // Check the value of fakemarg
 if (fakemarg == 0) {
